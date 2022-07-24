@@ -71,7 +71,7 @@ html {
   font-family: "Bebas Neue";
   font-weight: bold;
   font-size: 40px;
-  color: #ac0000;
+  color: rgb(255, 0, 0);
 }
 
 .gameContent .row.contentImage .versus .result {
