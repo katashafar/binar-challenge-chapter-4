@@ -37,7 +37,7 @@ html {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 24px;
-  font-family: "Open Sans";
+  font-family: "Bebas Neue";
 }
 
 .gameContent .row.contentImage .col-4 {
@@ -79,14 +79,14 @@ html {
   top: 0;
   left: 0;
   z-index: 1;
-  transform: rotate(-30deg);
-  margin-left: -30px;
+  transform: rotate(-32.5deg);
+  margin-left: -32.5px;
 }
 
 .gameContent .row.contentImage .versus .result h5 {
   display: table-cell;
   vertical-align: middle;
-  background-color: #4c9654;
+  background-color: #33a03e;
   border-radius: 5%;
   font-size: 14px;
   font-weight: bold;
@@ -104,7 +104,7 @@ html {
   }
 
   .gameContent .row div h3 {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   .gameContent .row.contentImage .col-sm-3 {
