@@ -122,7 +122,7 @@ player.forEach(function (choice) {
         }
       }, 1200);
     } else {
-      alert("Silahkan tekan logo refresh terlebih dahulu!");
+      alert("Klik logo refresh untuk memulai permainan lagi!");
     }
   });
 });
@@ -143,7 +143,7 @@ reset.addEventListener("click", function () {
   }
 
   /* Tampilkan kembali tulisan VS */
-  versus.style.color = "rgb(189,48,46)";
+  versus.style.color = "rgb(255,0,0)";
 
   /* Reset kembali result menjadi null agar dapat melakukan permainan kembali */
   result = null;
