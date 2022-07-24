@@ -58,7 +58,7 @@ function wait() {
       }
 
       /* Handling agar Menyamarkan greyBox dengan bgColor supaya tidak semuanya memiliki greyBox berwarna abu */
-      compBox[i++].style.backgroundColor = "#9c835f";
+      compBox[i++].style.backgroundColor = "#b36c07";
       if (i == compBox.length) i = 0;
     }, 50);
   }, 50);
@@ -70,7 +70,7 @@ player.forEach(function (choice) {
   choice.addEventListener("click", function () {
     /* Samarkan seluruh greyBox pada sisi player saat game dijalankan */
     for (let i = 0; i < playerBox.length; i++) {
-      playerBox[i].style.backgroundColor = "#9c835f";
+      playerBox[i].style.backgroundColor = "#b36c07";
     }
 
     /* Eventlistener hanya dikerjakan apabila result masih dalam kondisi null */
@@ -86,11 +86,11 @@ player.forEach(function (choice) {
 
       /* Berikan greyBox pada pilihan pemain */
       if (playerChoice == "rock") {
-        playerBox[0].style.backgroundColor = "#c4c4c4";
+        playerBox[0].style.backgroundColor = "#dbd9d5";
       } else if (playerChoice == "paper") {
-        playerBox[1].style.backgroundColor = "#c4c4c4";
+        playerBox[1].style.backgroundColor = "#dbd9d5";
       } else {
-        playerBox[2].style.backgroundColor = "#c4c4c4";
+        playerBox[2].style.backgroundColor = "#dbd9d5";
       }
 
       /* Jalankan fungsi wait agar komputer terlihat berpikir dahulu */
@@ -114,11 +114,11 @@ player.forEach(function (choice) {
 
         /* Berikan greyBox pada comp choice */
         if (compChoice == "rock") {
-          compBox[0].style.backgroundColor = "#c4c4c4";
+          compBox[0].style.backgroundColor = "#dbd9d5";
         } else if (compChoice == "paper") {
-          compBox[1].style.backgroundColor = "#c4c4c4";
+          compBox[1].style.backgroundColor = "#dbd9d5";
         } else {
-          compBox[2].style.backgroundColor = "#c4c4c4";
+          compBox[2].style.backgroundColor = "#dbd9d5";
         }
       }, 1200);
     } else {

@@ -103,6 +103,7 @@ html {
 
   .gameContent .row div h3 {
     font-size: 24px;
+    font-stretch: extra-expanded;
   }
 
   .gameContent .row.contentImage .col-sm-3 {
@@ -141,6 +142,7 @@ html {
 
   .gameContent .row div h3 {
     font-size: 28px;
+    font-stretch: extra-expanded;
   }
 
   .gameContent .row.contentImage .col-sm-3 {
@@ -179,6 +181,7 @@ html {
 
   .gameContent .row div h3 {
     font-size: 28px;
+    font-stretch: extra-expanded;
   }
 
   .gameContent .row.contentImage .col-sm-3 {
